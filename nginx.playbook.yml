@@ -20,3 +20,4 @@
       copy:
         src: index.nginx-debian.html
         dest: /var/www/html/index.nginx-debian.html
+      become: yes
