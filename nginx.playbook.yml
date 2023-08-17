@@ -2,6 +2,7 @@
 - name: Deploy nginx application
   hosts: web
   remote_user: ubuntu
+  become_user: root
   gather_facts: True
   tasks:
 
